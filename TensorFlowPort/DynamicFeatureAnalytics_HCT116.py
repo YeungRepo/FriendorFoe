@@ -35,7 +35,7 @@ def rgb2gray(rgb):
 #im = Image.open("../Data/Kernels/C2_03_1_1_Bright Field_004.tif");
 #im =  cv2.imread("../Data/Kernels/C2_03_1_1_Bright Field_004.tif",-1);
 #im =  cv2.imread("../Data/Kernels/Healthy_Cell_Repr30x.tif",-1);
-im = cv2.imread("../Data/Kernels/HCT116-Healthy_NC_10_2_20.tif",-1);
+im = Image.open("../Data/Kernels/HCT116-Healthy_NC_10_2_20.tif");
 
 
 #print(np.asarray(im))
@@ -53,7 +53,7 @@ im_array_gray_HCT116 = im_array_gray;
 
 #im = Image.open("../Data/Kernels/runawaygrowth_kernels/P1_E3_09.tif"); # images of bacterial patch
 #im = cv2.imread("../Data/Kernels/runawaygrowth_kernels/P1_E3_09.tif",-1); # images of bacterial patch
-im = cv2.imread("../Data/Kernels/HCT116-UnhealthyCell_BacterialPatch.tif",-1);
+im = Image.open("../Data/Kernels/HCT116-UnhealthyCell_BacterialPatch.tif");
 im_array_gray = im;# np.asarray(im,dtype=np.float32)
 #im_array_gray = rgb2gray(im_array_gray);
 im_array_gray = np.asarray(im,dtype=np.float32)
@@ -68,7 +68,7 @@ im_array_gray_bacterial_patch = im_array_gray/np.max(im_array_gray);
 #im = Image.open("../Data/Kernels/Unhealthy_cell_kernels/C6_04_1_1_Bright Field_009.tif");
 #im = cv2.imread("../Data/Kernels/Unhealthy_cell_kernels/C6_04_1_1_Bright Field_009.tif",-1);
 #im = cv2.imread("../Data/Kernels/Unhealthy_Cell_Repr30x.tif",-1);
-im = cv2.imread("Data/Kernels/HCT116-UnhealthyCell_BacterialPatch.tif",-1);
+im = Image.open("Data/Kernels/HCT116-UnhealthyCell_BacterialPatch.tif");
 #imshow(np.asarray(im))]
 im_array_gray = np.asarray(im,dtype=np.float32)
 #im_array_gray = im;#np.asarray(im,dtype=np.float32)

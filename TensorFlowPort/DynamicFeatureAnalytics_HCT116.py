@@ -236,7 +236,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
 
         im = cv2.imread(filename_in);
         
-        im_array_gray = im;#np.asarray(im,dtype=np.float32)
+        im_array_gray = np.asarray(im,dtype=np.float32)
         
         im_array_gray = rgb2gray(im_array_gray);
         

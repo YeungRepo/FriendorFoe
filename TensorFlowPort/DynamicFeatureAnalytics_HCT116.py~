@@ -2,7 +2,7 @@
 
 #import matplotlib.pyplot as plt;
 #import seaborn as sns;
-#from PIL import Image
+from PIL import Image
 import cv2;
 #from matplotlib.pyplot import imshow
 #import matplotlib.patches as patches;

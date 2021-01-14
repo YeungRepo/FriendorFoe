@@ -2,7 +2,7 @@
 
 #python3 DynamicFeatureAnalytics.py "/FoFData/20201012 IV_V A-549 P1/20201012 IV_V A-549 P1" >> AP1.txt &
 
-python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201029 HCT-116 30_Replicate 01 02 03 P1/201029_142943_Plate1" >> HCTP1-3.txt &
+python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201029 HCT-116 30_Replicate 01 02 03 P1/201029_142943_Plate 1" >> HCTP1-3.txt &
 
 python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201029 HCT-116 30_Replicate 04 05 06 P2/201029_143721_Plate 1" >> HCTP4-6.txt &
 

@@ -14,13 +14,13 @@ python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201029 HCT-116 30_Replicat
 python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201105 HCT-116 30_Replicate 16 17 18 P4/201105_150523_Plate 1"   >> HCTP16-18.txt &
 
 
-python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201105 HCT-116 30_Replicate 19 20 21 P5/201105_151230_Plate 1"   >> HCTP19-21.txt &
+#python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201105 HCT-116 30_Replicate 19 20 21 P5/201105_151230_Plate 1"   >> HCTP19-21.txt &
 
-python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201105 HCT-116 30_Replicate 22 23 30 P6/201105_151936_Plate 1"   >> HCTP22-23-30.txt &
+#python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201105 HCT-116 30_Replicate 22 23 30 P6/201105_151936_Plate 1"   >> HCTP22-23-30.txt &
 
 
-python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201106 HCT-116 30_Replicate 11 C P3/201106_161233_Plate 1"   >> HCTP11.txt &
+#python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201106 HCT-116 30_Replicate 11 C P3/201106_161233_Plate 1"   >> HCTP11.txt &
 
-python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201106 HCT-116 30_Replicate 24 25 26 P1/201106_155719_Plate 1"   >> HCTP24-26.txt &
+#python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201106 HCT-116 30_Replicate 24 25 26 P1/201106_155719_Plate 1"   >> HCTP24-26.txt &
 
-python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201106 HCT-116 30_Replicate 27 28 29 P2/201106_160458_Plate 1"   >> HCTP27-29.txt &
+#python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201106 HCT-116 30_Replicate 27 28 29 P2/201106_160458_Plate 1"   >> HCTP27-29.txt &

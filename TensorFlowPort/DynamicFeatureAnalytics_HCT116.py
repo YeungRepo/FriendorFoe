@@ -241,7 +241,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
         im_array_gray = np.asarray(im,dtype=np.float32)
         
         im_array_gray = rgb2gray(im_array_gray);
-        print("This shape:" + repr(im_array_gray.shape))
+        #DEBUG: #print("Image dimension check:" + repr(im_array_gray.shape))
         im_array_gray = im_array_gray[350:650,350:650]
         num_rows = im_array_gray.shape[0];
         num_cols = im_array_gray.shape[1];

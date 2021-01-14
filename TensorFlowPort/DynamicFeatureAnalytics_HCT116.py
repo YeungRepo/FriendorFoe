@@ -42,7 +42,7 @@ im = Image.open("../Data/Kernels/HCT116-Healthy_NC_10_2_20.tif");
 #print(im_cv)
 #imshow(np.asarray(im))
 im_array_gray = np.asarray(im,dtype=np.float32)
-im_array_gray = rgb2gray(im_array_gray);
+#im_array_gray = rgb2gray(im_array_gray);
 if invert_image:
     im_array_gray = (np.abs(255.0-im_array_gray))
 

@@ -68,7 +68,7 @@ im_array_gray_bacterial_patch = im_array_gray/np.max(im_array_gray);
 #im = Image.open("../Data/Kernels/Unhealthy_cell_kernels/C6_04_1_1_Bright Field_009.tif");
 #im = cv2.imread("../Data/Kernels/Unhealthy_cell_kernels/C6_04_1_1_Bright Field_009.tif",-1);
 #im = cv2.imread("../Data/Kernels/Unhealthy_Cell_Repr30x.tif",-1);
-im = Image.open("Data/Kernels/HCT116-UnhealthyCell_BacterialPatch.tif");
+im = Image.open("../Data/Kernels/HCT116-UnhealthyCell_BacterialPatch.tif");
 #imshow(np.asarray(im))]
 im_array_gray = np.asarray(im,dtype=np.float32)
 #im_array_gray = im;#np.asarray(im,dtype=np.float32)

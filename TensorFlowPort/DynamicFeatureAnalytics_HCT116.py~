@@ -236,7 +236,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
 
         im = cv2.imread(filename_in);
         
-        im_array_gray = im;#np.asarray(im,dtype=np.float32)
+        im_array_gray = np.asarray(im,dtype=np.float32)
         
         im_array_gray = rgb2gray(im_array_gray);
         
@@ -277,6 +277,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
             for row_ind in np.arange(0,num_rows-mask_rows,row_res_masking):
                 for col_ind in np.arange(0,num_cols-mask_cols,col_res_masking):                                                                                        
                       Raw_Subimage = np.array(im_array_gray[row_ind:row_ind+mask_rows,col_ind:col_ind+mask_cols]);
+                      print(Raw_Subimage.shape)
                       Raw_Subimage = (np.mean(Raw_Subimage,axis=None)-Raw_Subimage)/(np.mean(Raw_Subimage,axis=None))
                       Raw_Subimage[Raw_Subimage<0.0]=0.0;
                       #Family of Kernel Processing Layer
@@ -284,6 +285,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
                       rotated_norms = [];
                       for rotated_kernel in this_kernel_family:
                           temp_filtered_image = np.array(Raw_Subimage);
+                          
                           temp_filtered_image[rotated_kernel==0.0]=0.0;
                           this_norm = np.linalg.norm(rotated_kernel-temp_filtered_image,'fro');
                           rotated_norms.append(1e4*this_norm/(rotated_kernel.shape[0]*rotated_kernel.shape[1]));

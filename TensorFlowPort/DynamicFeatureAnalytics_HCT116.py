@@ -128,6 +128,7 @@ list_of_kernels = [mask_sample_kernel_healthy_HCT116,mask_sample_kernel_unhealth
 list_kernel_families = [None]*len(list_of_kernels);
 for sample_kernel_ind in range(0,len(list_of_kernels)):
     mask_sample_kernel = list_of_kernels[sample_kernel_ind];
+    print(mask_sample_kernel.shape)
     base_angle = 0;
     kernel_family = [];
     for delta in range(base_angle,360,10):

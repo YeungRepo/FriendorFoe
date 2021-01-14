@@ -300,7 +300,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
 
 
         
-        for sample_kernel_ind in [0,1,2]:
+        for sample_kernel_ind in [0,2]:
                 all_centroid_rects_by_kernels[sample_kernel_ind] = [];
                 #print(" - - - - Beginning max pooling - - - -")
                 this_color = list_of_colors[sample_kernel_ind];

@@ -80,19 +80,19 @@ im_array_gray_HCT116_UH = im_array_gray
 
 if set_kernel:
     #Define Healthy HCT116s
-    sample_kernel_healthy_HCT116 = im_array_gray_HCT116[425:575,1050:1150]
+    sample_kernel_healthy_HCT116 = im_array_gray_HCT116[250:350,650:750]
     sample_kernel_healthy_HCT116 = (np.mean(sample_kernel_healthy_HCT116,axis=None)-sample_kernel_healthy_HCT116)/(np.mean(sample_kernel_healthy_HCT116,axis=None))
     sample_kernel_healthy_HCT116[sample_kernel_healthy_HCT116<0.00] =0.0; 
     mask_sample_kernel_healthy_HCT116 = sample_kernel_healthy_HCT116;
 
     #Define Bacterial Patches
-    sample_kernel_bacterial_patch = (im_array_gray_bacterial_patch[600:650,600:650]) #np.array(im_array_gray_bacterial_patch[625:795,350:550])#
+    sample_kernel_bacterial_patch = (im_array_gray_bacterial_patch[685:715,685:715]) #np.array(im_array_gray_bacterial_patch[625:795,350:550])#
     sample_kernel_bacterial_patch = (np.mean(sample_kernel_bacterial_patch,axis=None)-sample_kernel_bacterial_patch)/(np.mean(sample_kernel_bacterial_patch,axis=None))
     sample_kernel_bacterial_patch[sample_kernel_bacterial_patch<0.00] =0.0; 
     mask_sample_kernel_bacterial_patch = sample_kernel_bacterial_patch#/np.max(sample_kernel_bacterial_patch);
 
     
-    sample_kernel_unhealthy_HCT116 = (im_array_gray_HCT116_UH[660:700,690:730])
+    sample_kernel_unhealthy_HCT116 = (im_array_gray_HCT116_UH[660:700,200:300])
     sample_kernel_unhealthy_HCT116 = (np.mean(sample_kernel_unhealthy_HCT116,axis=None)-sample_kernel_unhealthy_HCT116)/(np.mean(sample_kernel_unhealthy_HCT116,axis=None))
     sample_kernel_unhealthy_HCT116[sample_kernel_unhealthy_HCT116<0.00] =0.0; 
     mask_sample_kernel_unhealthy_HCT116 = sample_kernel_unhealthy_HCT116;
@@ -120,7 +120,9 @@ if show_kernels ==True:
     ax.set_yticklabels({})
     cbar.ax.tick_params(labelsize=20) 
 
-list_of_kernels = [mask_sample_kernel_healthy_HCT116,mask_sample_kernel_unhealthy_HCT116,mask_sample_kernel_bacterial_patch]##[mask_sample_kernel_healthy_HCT116,mask_sample_kernel_healthy_dendritic,mask_sample_kernel_healthy_macrophage,mask_sample_kernel_unhealthy_HCT116,mask_sample_kernel_unhealthy_dendritic,mask_sample_kernel_unhealthy_macrophage,mask_sample_kernel_bacterial_patch]
+list_of_kernels = [mask_sample_kernel_healthy_HCT116,mask_sample_kernel_unhealthy_HCT116,mask_sample_kernel_bacterial_patch]
+
+##[mask_sample_kernel_healthy_HCT116,mask_sample_kernel_healthy_dendritic,mask_sample_kernel_healthy_macrophage,mask_sample_kernel_unhealthy_HCT116,mask_sample_kernel_unhealthy_dendritic,mask_sample_kernel_unhealthy_macrophage,mask_sample_kernel_bacterial_patch]
 
 list_kernel_families = [None]*len(list_of_kernels);
 for sample_kernel_ind in range(0,len(list_of_kernels)):
@@ -190,7 +192,7 @@ Pos_Flag = [elem[0]+elem[1] for elem in Pos_Flag]
 
 
 
-list_of_alphas = [4.4,30.0,12.1];#[3.75,13.0,5.1,8.5,8.2,11.25,4.06]
+list_of_alphas = [6.25,17.0,26.5];#[3.75,13.0,5.1,8.5,8.2,11.25,4.06]
 list_of_colors = ['g','r','b']
 import pickle
 row_res_masking = 10;
@@ -389,12 +391,12 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
         
         del(im);
         del(im_array_gray);
-    output_file = open(Pickle_Path+'/'+exp_id+'.pickle','wb')
+    output_file = open(Pickle_Path+'/'+exp_id+'_HCT116.pickle','wb')
     pickle.dump(feature_dict,output_file)
     output_file.close()  
     #del(feature_dict);
 
-output_file = open(Pickle_Path+'/'+exp_id+'.pickle','wb')
+output_file = open(Pickle_Path+'/'+exp_id+'_HCT116.pickle','wb')
 pickle.dump(feature_dict,output_file)
 output_file.close()           
 print("Successfully wrote pickle file with feature dictionary!")

@@ -240,7 +240,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
         
         im_array_gray = rgb2gray(im_array_gray);
         
-        im_array_gray = im_array_gray[300:600,300:600]
+        im_array_gray = im_array_gray[350:650,350:650]
         num_rows = im_array_gray.shape[0];
         num_cols = im_array_gray.shape[1];
         if invert_image:

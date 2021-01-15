@@ -242,7 +242,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
         
         im_array_gray = rgb2gray(im_array_gray);
         #DEBUG: #print("Image dimension check:" + repr(im_array_gray.shape))
-        im_array_gray = im_array_gray[350:650,350:650]
+        im_array_gray = im_array_gray[350:950,350:950]
         num_rows = im_array_gray.shape[0];
         num_cols = im_array_gray.shape[1];
         if invert_image:

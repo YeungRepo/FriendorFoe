@@ -164,7 +164,7 @@ All_Arguments = sys.argv;
 rootdir = sys.argv[1];
 rootdir = '/home/yeunglab/'+rootdir;
 #rootdir = os.path.abspath(rootdir)
-exp_id = '/'+rootdir.split('/')[-1];
+exp_id = '/'+rootdir.split('/')[-2]+rootdir.split('/')[-1];
 all_orig_files = os.listdir(rootdir);
 #filterdir = '/Users/eyeung/Desktop/HighRes_Trial2/'+ rootdir.split('/')[-1];
 filterdir = '/home/yeunglab/FoFOutput/Repr_Images/';#'/Users/eyeung/Box/DARPAFoF UCSB Team Share/Repr_Images/';
@@ -238,7 +238,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
         
         im_array_gray = rgb2gray(im_array_gray);
         #DEBUG: #print("Image dimension check:" + repr(im_array_gray.shape))
-        im_array_gray = im_array_gray[350:950,350:950]
+        im_array_gray = im_array_gray[350:750,350:750]
         num_rows = im_array_gray.shape[0];
         num_cols = im_array_gray.shape[1];
         if invert_image:

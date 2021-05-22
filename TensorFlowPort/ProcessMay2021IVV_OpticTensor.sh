@@ -14,10 +14,10 @@
 #python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201105 HCT-116 30_Replicate 16 17 18 P4/201105_150523_Plate 1"   >> HCTP16-18.txt &
 
 
-python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20210521 IVV Handoff/HCT116 Plate 1/"   >> May21IVV_HCTPlate1.txt &
+python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20210521 IVV Handoff/HCT116 P1/"   >> May21IVV_HCTPlate1.txt &
 
-python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20210521 IVV Handoff/HCT116 Plate 2/"   >> May21IVV_HCTPlate2.txt &
+python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20210521 IVV Handoff/HCT116 P2/"   >> May21IVV_HCTPlate2.txt &
 
-python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20210521 IVV Handoff/HCT116 Plate 3/"   >> May21IVV_HCTPlate3.txt &
+python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20210521 IVV Handoff/HCT116 P3/"   >> May21IVV_HCTPlate3.txt &
 
-python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20210521 IVV Handoff/HCT116 Plate 4/"   >> May21IVV_HCTPlate4.txt &
+python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20210521 IVV Handoff/HCT116 P4/"   >> May21IVV_HCTPlate4.txt &

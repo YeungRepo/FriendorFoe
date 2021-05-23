@@ -14,10 +14,10 @@
 #python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201105 HCT-116 30_Replicate 16 17 18 P4/201105_150523_Plate 1"   >> HCTP16-18.txt &
 
 
-python3 DynamicFeatureAnalytics.py "/FoFData/20210428 NIST Isolate Challenge Plates/A549 P1/"   >> A549Plate1.txt &
+python3 DynamicFeatureAnalytics.py "/FoFData/20210428 NIST Isolate Challenge Plates/A549 Plate 1/"   >> A549Plate1.txt &
 
-python3 DynamicFeatureAnalytics.py "/FoFData/20210428 NIST Isolate Challenge Plates/A549 P2/"   >> A549Plate2.txt &
+python3 DynamicFeatureAnalytics.py "/FoFData/20210428 NIST Isolate Challenge Plates/A549 Plate 2/"   >> A549Plate2.txt &
 
-python3 DynamicFeatureAnalytics.py "/FoFData/20210428 NIST Isolate Challenge Plates/A549 P3/"   >> A549Plate3.txt &
+python3 DynamicFeatureAnalytics.py "/FoFData/20210428 NIST Isolate Challenge Plates/A549 Plate 3/"   >> A549Plate3.txt &
 
-python3 DynamicFeatureAnalytics.py "/FoFData/20210428 NIST Isolate Challenge Plates/A549 P4/"   >> A549Plate4.txt &
+python3 DynamicFeatureAnalytics.py "/FoFData/20210428 NIST Isolate Challenge Plates/A549 Plate 4/"   >> A549Plate4.txt &

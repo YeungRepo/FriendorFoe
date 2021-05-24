@@ -1,0 +1,2073 @@
+Analyzing the following files that match the Position Flag :A1
+11
+14
+12
+10
+15
+08
+07
+16
+02
+13
+03
+18
+06
+17
+04
+09
+05
+Analyzing the following files that match the Position Flag :A2
+18
+02
+13
+03
+05
+07
+04
+11
+17
+12
+10
+08
+16
+09
+15
+14
+06
+Analyzing the following files that match the Position Flag :A3
+06
+09
+02
+13
+03
+17
+07
+10
+14
+05
+15
+11
+08
+18
+16
+04
+12
+Analyzing the following files that match the Position Flag :A4
+08
+15
+14
+03
+05
+16
+18
+12
+04
+09
+07
+02
+11
+06
+10
+17
+13
+Analyzing the following files that match the Position Flag :A5
+04
+10
+15
+09
+13
+16
+14
+05
+03
+06
+08
+02
+12
+17
+11
+18
+07
+Analyzing the following files that match the Position Flag :A6
+04
+16
+08
+11
+10
+03
+02
+12
+14
+06
+07
+05
+13
+17
+18
+15
+09
+Analyzing the following files that match the Position Flag :A7
+04
+14
+08
+18
+09
+13
+11
+17
+10
+15
+02
+03
+05
+06
+16
+12
+07
+Analyzing the following files that match the Position Flag :A8
+13
+05
+02
+18
+10
+06
+14
+16
+04
+17
+11
+08
+15
+07
+12
+03
+09
+Analyzing the following files that match the Position Flag :A9
+04
+15
+14
+03
+07
+08
+10
+02
+11
+16
+12
+13
+05
+17
+18
+09
+06
+Analyzing the following files that match the Position Flag :A10
+02
+11
+07
+16
+12
+05
+17
+09
+04
+15
+18
+08
+14
+13
+06
+10
+03
+Analyzing the following files that match the Position Flag :A11
+08
+18
+17
+11
+10
+13
+12
+15
+07
+06
+05
+14
+03
+16
+02
+09
+04
+Analyzing the following files that match the Position Flag :A12
+03
+09
+10
+18
+14
+08
+13
+15
+07
+06
+11
+05
+17
+16
+02
+12
+04
+Analyzing the following files that match the Position Flag :B1
+11
+08
+06
+03
+05
+07
+02
+14
+13
+09
+18
+04
+16
+15
+12
+17
+10
+Analyzing the following files that match the Position Flag :B2
+17
+05
+08
+14
+02
+11
+09
+06
+03
+04
+12
+16
+10
+18
+13
+15
+07
+Analyzing the following files that match the Position Flag :B3
+13
+11
+06
+07
+15
+18
+08
+10
+05
+14
+16
+02
+09
+17
+03
+12
+04
+Analyzing the following files that match the Position Flag :B4
+02
+15
+10
+06
+04
+09
+08
+11
+14
+05
+07
+13
+17
+12
+16
+18
+03
+Analyzing the following files that match the Position Flag :B5
+12
+15
+18
+11
+07
+17
+06
+08
+13
+09
+14
+03
+04
+05
+02
+16
+10
+Analyzing the following files that match the Position Flag :B6
+11
+03
+13
+05
+04
+18
+06
+10
+09
+07
+16
+14
+15
+17
+02
+08
+12
+Analyzing the following files that match the Position Flag :B7
+13
+02
+04
+15
+12
+17
+16
+03
+05
+18
+07
+10
+09
+06
+14
+08
+11
+Analyzing the following files that match the Position Flag :B8
+10
+07
+12
+16
+09
+11
+02
+18
+13
+17
+14
+03
+06
+05
+15
+04
+08
+Analyzing the following files that match the Position Flag :B9
+14
+06
+11
+12
+09
+07
+16
+08
+17
+04
+18
+05
+02
+13
+03
+15
+10
+Analyzing the following files that match the Position Flag :B10
+02
+16
+03
+17
+12
+05
+04
+11
+08
+07
+06
+13
+18
+10
+09
+14
+15
+Analyzing the following files that match the Position Flag :B11
+09
+02
+17
+04
+15
+06
+13
+11
+05
+03
+07
+16
+10
+18
+12
+08
+14
+Analyzing the following files that match the Position Flag :B12
+18
+15
+06
+02
+03
+17
+11
+05
+10
+07
+12
+14
+13
+16
+08
+04
+09
+Analyzing the following files that match the Position Flag :C1
+12
+08
+13
+05
+07
+17
+18
+03
+06
+16
+14
+09
+04
+10
+15
+02
+11
+Analyzing the following files that match the Position Flag :C2
+13
+18
+02
+12
+06
+11
+09
+08
+15
+17
+04
+10
+16
+14
+03
+07
+05
+Analyzing the following files that match the Position Flag :C3
+15
+03
+02
+07
+10
+04
+06
+17
+14
+12
+18
+08
+16
+13
+05
+11
+09
+Analyzing the following files that match the Position Flag :C4
+13
+15
+14
+10
+11
+17
+18
+06
+12
+07
+05
+16
+04
+02
+09
+03
+08
+Analyzing the following files that match the Position Flag :C5
+04
+16
+12
+03
+17
+09
+18
+05
+10
+02
+15
+13
+08
+06
+07
+11
+14
+Analyzing the following files that match the Position Flag :C6
+14
+13
+17
+12
+11
+06
+05
+10
+09
+18
+04
+07
+03
+02
+15
+16
+08
+Analyzing the following files that match the Position Flag :C7
+10
+13
+12
+11
+15
+03
+05
+17
+16
+06
+07
+02
+08
+18
+14
+04
+09
+Analyzing the following files that match the Position Flag :C8
+07
+02
+05
+10
+06
+04
+16
+11
+08
+09
+14
+13
+17
+03
+12
+18
+15
+Analyzing the following files that match the Position Flag :C9
+06
+16
+14
+04
+02
+11
+12
+18
+08
+13
+07
+03
+17
+05
+10
+15
+09
+Analyzing the following files that match the Position Flag :C10
+15
+17
+14
+03
+02
+16
+05
+18
+07
+10
+06
+08
+11
+12
+04
+09
+13
+Analyzing the following files that match the Position Flag :C11
+13
+03
+16
+02
+04
+11
+17
+09
+12
+15
+18
+10
+14
+07
+08
+06
+05
+Analyzing the following files that match the Position Flag :C12
+18
+02
+07
+06
+09
+17
+13
+10
+15
+08
+16
+04
+03
+12
+05
+14
+11
+Analyzing the following files that match the Position Flag :D1
+03
+16
+17
+18
+10
+08
+06
+13
+05
+15
+14
+09
+04
+12
+11
+02
+07
+Analyzing the following files that match the Position Flag :D2
+06
+09
+08
+02
+03
+14
+15
+18
+11
+07
+12
+17
+04
+05
+13
+16
+10
+Analyzing the following files that match the Position Flag :D3
+06
+08
+03
+18
+13
+16
+02
+11
+12
+15
+07
+10
+17
+09
+04
+05
+14
+Analyzing the following files that match the Position Flag :D4
+12
+15
+13
+10
+03
+16
+06
+09
+07
+18
+17
+02
+05
+14
+11
+04
+08
+Analyzing the following files that match the Position Flag :D5
+08
+06
+04
+11
+02
+10
+07
+17
+12
+15
+03
+18
+14
+05
+16
+09
+13
+Analyzing the following files that match the Position Flag :D6
+12
+09
+06
+15
+05
+18
+11
+10
+14
+04
+02
+07
+17
+16
+13
+03
+08
+Analyzing the following files that match the Position Flag :D7
+08
+07
+18
+10
+03
+14
+11
+06
+05
+15
+13
+04
+12
+02
+16
+09
+17
+Analyzing the following files that match the Position Flag :D8
+02
+17
+10
+04
+03
+13
+09
+06
+07
+16
+15
+05
+08
+11
+12
+14
+18
+Analyzing the following files that match the Position Flag :D9
+16
+15
+03
+06
+18
+05
+09
+04
+14
+13
+10
+07
+02
+11
+12
+08
+17
+Analyzing the following files that match the Position Flag :D10
+04
+15
+05
+16
+02
+09
+03
+17
+07
+12
+18
+14
+08
+13
+10
+06
+11
+Analyzing the following files that match the Position Flag :D11
+15
+12
+10
+08
+07
+05
+14
+03
+18
+09
+11
+17
+16
+06
+13
+04
+02
+Analyzing the following files that match the Position Flag :D12
+16
+09
+13
+03
+17
+02
+05
+11
+08
+18
+14
+04
+06
+15
+10
+07
+12
+Analyzing the following files that match the Position Flag :E1
+18
+15
+12
+09
+02
+06
+11
+07
+17
+13
+16
+04
+08
+03
+10
+14
+05
+Analyzing the following files that match the Position Flag :E2
+15
+12
+09
+11
+18
+03
+02
+04
+05
+10
+07
+17
+13
+06
+16
+14
+08
+Analyzing the following files that match the Position Flag :E3
+05
+03
+13
+08
+04
+10
+17
+18
+11
+09
+16
+12
+15
+07
+14
+02
+06
+Analyzing the following files that match the Position Flag :E4
+03
+07
+05
+06
+11
+17
+09
+13
+15
+10
+12
+02
+14
+04
+08
+16
+18
+Analyzing the following files that match the Position Flag :E5
+18
+07
+16
+13
+02
+03
+17
+15
+10
+08
+09
+12
+14
+11
+06
+05
+04
+Analyzing the following files that match the Position Flag :E6
+09
+15
+14
+02
+17
+07
+05
+11
+10
+16
+04
+03
+06
+13
+08
+18
+12
+Analyzing the following files that match the Position Flag :E7
+16
+13
+17
+11
+18
+09
+10
+02
+03
+08
+12
+05
+06
+14
+15
+07
+04
+Analyzing the following files that match the Position Flag :E8
+05
+15
+06
+11
+13
+04
+07
+16
+14
+10
+02
+18
+12
+03
+17
+08
+09
+Analyzing the following files that match the Position Flag :E9
+17
+16
+11
+09
+05
+12
+15
+02
+07
+06
+10
+18
+03
+08
+14
+13
+04
+Analyzing the following files that match the Position Flag :E10
+02
+14
+10
+17
+09
+18
+08
+04
+16
+12
+15
+03
+06
+13
+05
+07
+11
+Analyzing the following files that match the Position Flag :E11
+12
+11
+14
+09
+16
+02
+05
+07
+15
+03
+17
+13
+06
+08
+18
+10
+04
+Analyzing the following files that match the Position Flag :E12
+18
+07
+05
+12
+16
+17
+08
+06
+13
+11
+15
+09
+10
+03
+02
+04
+14
+Analyzing the following files that match the Position Flag :F1
+02
+09
+04
+03
+15
+11
+13
+06
+14
+18
+10
+12
+05
+16
+08
+17
+07
+Analyzing the following files that match the Position Flag :F2
+18
+15
+16
+05
+11
+14
+13
+06
+17
+04
+03
+09
+10
+07
+08
+12
+02
+Analyzing the following files that match the Position Flag :F3
+02
+18
+16
+15
+05
+04
+08
+14
+12
+06
+13
+17
+10
+09
+07
+11
+03
+Analyzing the following files that match the Position Flag :F4
+03
+14
+18
+06
+10
+04
+02
+07
+15
+11
+09
+17
+08
+05
+13
+12
+16
+Analyzing the following files that match the Position Flag :F5
+14
+18
+09
+02
+11
+10
+13
+05
+08
+07
+12
+16
+17
+15
+04
+03
+06
+Analyzing the following files that match the Position Flag :F6
+09
+06
+12
+10
+03
+08
+13
+02
+17
+18
+16
+14
+07
+11
+15
+05
+04
+Analyzing the following files that match the Position Flag :F7
+14
+02
+12
+13
+03
+04
+17
+15
+16
+06
+11
+09
+08
+18
+07
+10
+05
+Analyzing the following files that match the Position Flag :F8
+16
+10
+06
+17
+05
+04
+12
+07
+09
+14
+13
+03
+02
+11
+18
+15
+08
+Analyzing the following files that match the Position Flag :F9
+05
+02
+12
+14
+11
+07
+18
+15
+10
+06
+09
+16
+17
+03
+13
+04
+08
+Analyzing the following files that match the Position Flag :F10
+05
+13
+03
+10
+06
+18
+07
+04
+02
+14
+08
+09
+11
+16
+12
+15
+17
+Analyzing the following files that match the Position Flag :F11
+10
+12
+16
+13
+08
+07
+09
+02
+11
+04
+15
+18
+14
+05
+03
+17
+06
+Analyzing the following files that match the Position Flag :F12
+04
+16
+09
+10
+06
+13
+05
+08
+07
+12
+03
+11
+18
+15
+02
+17
+14
+Analyzing the following files that match the Position Flag :G1
+04
+10
+05
+09
+15
+16
+08
+18
+13
+06
+14
+12
+02
+17
+07
+11
+03
+Analyzing the following files that match the Position Flag :G2
+15
+14
+17
+02
+11
+04
+18
+08
+07
+05
+13
+03
+09
+16
+10
+06
+12
+Analyzing the following files that match the Position Flag :G3
+08
+10
+12
+17
+03
+04
+07
+13
+02
+09
+11
+16
+15
+18
+05
+14
+06
+Analyzing the following files that match the Position Flag :G4
+10
+15
+11
+14
+18
+05
+17
+03
+08
+09
+04
+13
+02
+07
+06
+16
+12
+Analyzing the following files that match the Position Flag :G5
+11
+18
+08
+07
+10
+12
+14
+05
+15
+04
+16
+02
+03
+06
+13
+17
+09
+Analyzing the following files that match the Position Flag :G6
+09
+06
+05
+08
+04
+16
+17
+10
+13
+11
+12
+03
+14
+07
+18
+02
+15
+Analyzing the following files that match the Position Flag :G7
+11
+10
+16
+07
+03
+05
+15
+08
+12
+06
+04
+18
+09
+14
+17
+02
+13
+Analyzing the following files that match the Position Flag :G8
+18
+07
+05
+16
+13
+09
+02
+03
+10
+15
+14
+11
+08
+04
+12
+06
+17
+Analyzing the following files that match the Position Flag :G9
+13
+09
+12
+11
+14
+18
+03
+15
+05
+06
+08
+07
+17
+04
+02
+10
+16
+Analyzing the following files that match the Position Flag :G10
+13
+18
+16
+03
+17
+04
+10
+12
+07
+06
+02
+09
+15
+14
+11
+08
+05
+Analyzing the following files that match the Position Flag :G11
+07
+03
+10
+14
+15
+09
+12
+11
+18
+06
+13
+17
+04
+05
+16
+02
+08
+Analyzing the following files that match the Position Flag :G12
+08
+14
+12
+05
+09
+02
+07
+18
+15
+17
+13
+16
+10
+06
+03
+04
+11
+Analyzing the following files that match the Position Flag :H1
+08
+16
+03
+10
+13
+12
+09
+05
+06
+11
+14
+04
+15
+02
+07
+17
+18
+Analyzing the following files that match the Position Flag :H2
+08
+15
+06
+17
+16
+03
+18
+11
+07
+02
+13
+09
+14
+05
+04
+10
+12
+Analyzing the following files that match the Position Flag :H3
+08
+16
+05
+02
+09
+04
+14
+13
+07
+12
+06
+18
+15
+10
+03
+11
+17
+Analyzing the following files that match the Position Flag :H4
+15
+13
+09
+06
+12
+03
+11
+04
+08
+14
+10
+17
+07
+02
+18
+16
+05
+Analyzing the following files that match the Position Flag :H5
+10
+07
+16
+05
+12
+17
+02
+18
+03
+14
+11
+09
+15
+13
+08
+06
+04
+Analyzing the following files that match the Position Flag :H6
+12
+14
+03
+18
+16
+13
+08
+06
+05
+02
+17
+07
+11
+04
+10
+15
+09
+Analyzing the following files that match the Position Flag :H7
+06
+12
+15
+04
+18
+02
+17
+13
+10
+08
+09
+07
+16
+03
+05
+14
+11
+Analyzing the following files that match the Position Flag :H8
+16
+13
+08
+14
+06
+02
+07
+05
+04
+11
+09
+15
+03
+10
+12
+17
+18
+Analyzing the following files that match the Position Flag :H9
+17
+10
+13
+14
+04
+11
+07
+09
+16
+15
+08
+06
+12
+18
+05
+02
+03
+Analyzing the following files that match the Position Flag :H10
+13
+17
+04
+11
+12
+03
+02
+06
+16
+15
+14
+09
+18
+08
+07
+10
+05
+Analyzing the following files that match the Position Flag :H11
+16
+06
+15
+12
+09
+08
+14
+17
+13
+04
+05
+03
+18
+02
+10
+11
+07
+Analyzing the following files that match the Position Flag :H12
+05
+06
+15
+10
+03
+18
+14
+02
+13
+07
+11
+12
+04
+17
+09
+16
+08
+Successfully wrote pickle file with feature dictionary!
+Total Process Time: 48837.19670151919
+         3174075818 function calls (2981897861 primitive calls) in 33513.018 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+407355167/215177375 26964.251    0.000 31485.204    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+192177792 2122.670    0.000 30005.779    0.000 linalg.py:2363(norm)
+400370514 1454.208    0.000 1454.210    0.000 {built-in method numpy.array}
+ 22812388  472.252    0.000  472.252    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+192177792  373.565    0.000 30883.132    0.000 <__array_function__ internals>:2(norm)
+192177792  366.332    0.000  366.332    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+192177792  317.364    0.000 26898.105    0.000 <__array_function__ internals>:2(dot)
+405708680  154.868    0.000  154.868    0.000 {built-in method builtins.issubclass}
+192177792  152.075    0.000  221.059    0.000 linalg.py:112(isComplexType)
+192177792  148.942    0.000  323.907    0.000 _asarray.py:14(asarray)
+ 10676550  145.760    0.000  473.408    0.000 _methods.py:143(_mean)
+     1635  125.022    0.076  125.022    0.076 {imread}
+ 10676550   89.263    0.000  112.034    0.000 _methods.py:59(_count_reduce_items)
+192177792   87.902    0.000   87.902    0.000 linalg.py:2359(_norm_dispatcher)
+ 12135838   84.746    0.000  441.719    0.000 fromnumeric.py:70(_wrapreduction)
+192177792   77.910    0.000   77.910    0.000 multiarray.py:706(dot)
+197516496   67.323    0.000   67.323    0.000 {method 'append' of 'list' objects}
+ 10676550   54.227    0.000  527.635    0.000 fromnumeric.py:3269(mean)
+ 11065730   46.046    0.000  470.049    0.000 fromnumeric.py:2714(amin)
+     1633   34.733    0.021   34.733    0.021 DynamicFeatureAnalytics.py:26(rgb2gray)
+ 10676550   26.931    0.000  581.755    0.000 <__array_function__ internals>:2(mean)
+ 11065730   24.083    0.000  520.553    0.000 <__array_function__ internals>:2(amin)
+ 12135838   21.673    0.000   21.673    0.000 fromnumeric.py:71(<dictcomp>)
+ 11065963   19.953    0.000   19.953    0.000 {built-in method builtins.getattr}
+ 21353100   17.751    0.000   17.751    0.000 {built-in method numpy.core._multiarray_umath.normalize_axis_index}
+ 21353989   14.312    0.000   14.312    0.000 {built-in method builtins.isinstance}
+ 10676550   11.038    0.000   22.528    0.000 _asarray.py:86(asanyarray)
+ 10676952   10.043    0.000   10.043    0.000 {built-in method builtins.hasattr}
+ 11065730    5.836    0.000    5.836    0.000 fromnumeric.py:2709(_amin_dispatcher)
+ 10676550    5.410    0.000    5.410    0.000 fromnumeric.py:3265(_mean_dispatcher)
+ 12135848    4.671    0.000    4.671    0.000 {method 'items' of 'dict' objects}
+   182299    3.176    0.000    3.176    0.000 {method 'argmax' of 'numpy.ndarray' objects}
+  1070108    2.605    0.000   20.321    0.000 fromnumeric.py:2589(amax)
+  1070108    1.696    0.000   23.551    0.000 <__array_function__ internals>:2(amax)
+   225216    1.616    0.000    1.616    0.000 {built-in method numpy.arange}
+   167578    0.905    0.000    0.905    0.000 {built-in method posix.stat}
+   182299    0.366    0.000    2.302    0.000 <__array_function__ internals>:2(unravel_index)
+  1070108    0.324    0.000    0.324    0.000 fromnumeric.py:2584(_amax_dispatcher)
+   338403    0.268    0.000    0.268    0.000 {method 'split' of 'str' objects}
+   165888    0.212    0.000    1.053    0.000 genericpath.py:27(isfile)
+       97    0.115    0.001    0.115    0.001 {built-in method _pickle.dump}
+       96    0.109    0.001    0.184    0.002 DynamicFeatureAnalytics.py:203(<listcomp>)
+   182299    0.081    0.000    0.081    0.000 multiarray.py:990(unravel_index)
+     4896    0.080    0.000    0.221    0.000 numeric.py:144(ones)
+       98    0.072    0.001    0.072    0.001 {built-in method io.open}
+     1730    0.064    0.000    0.064    0.000 {built-in method builtins.print}
+    69815    0.064    0.000    0.064    0.000 {method 'add' of 'set' objects}
+     4896    0.024    0.000    0.024    0.000 {built-in method numpy.empty}
+     1632    0.019    0.000    0.085    0.000 genericpath.py:39(isdir)
+     1632    0.012    0.000    0.012    0.000 {destroyAllWindows}
+     4896    0.011    0.000    0.117    0.000 <__array_function__ internals>:2(copyto)
+       97    0.007    0.000    0.007    0.000 {method 'close' of '_io.BufferedWriter' objects}
+      108    0.006    0.000    0.006    0.000 {warpAffine}
+     4993    0.005    0.000    0.005    0.000 {method 'strip' of 'str' objects}
+7490/7481    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+      102    0.002    0.000    0.002    0.000 {method 'transform2' of 'ImagingCore' objects}
+     4896    0.002    0.000    0.002    0.000 multiarray.py:1043(copyto)
+     1632    0.002    0.000    0.002    0.000 {built-in method _stat.S_ISDIR}
+        4    0.001    0.000    0.001    0.000 {built-in method posix.listdir}
+        1    0.001    0.001    0.001    0.001 {built-in method _imp.create_dynamic}
+       11    0.001    0.000    0.001    0.000 {built-in method marshal.loads}
+      104    0.001    0.000    0.001    0.000 TiffTags.py:26(__new__)
+      108    0.001    0.000    0.002    0.000 Image.py:2728(fromarray)
+      108    0.001    0.000    0.005    0.000 Image.py:1970(rotate)
+      408    0.001    0.000    0.001    0.000 {built-in method builtins.round}
+      108    0.000    0.000    0.001    0.000 Image.py:710(tobytes)
+     12/2    0.000    0.000    0.007    0.003 {built-in method builtins.exec}
+      210    0.000    0.000    0.001    0.000 Image.py:2598(new)
+      324    0.000    0.000    0.001    0.000 Image.py:555(_new)
+       22    0.000    0.000    0.001    0.000 {built-in method builtins.__build_class__}
+      108    0.000    0.000    0.000    0.000 {getRotationMatrix2D}
+      534    0.000    0.000    0.000    0.000 Image.py:530(__init__)
+      108    0.000    0.000    0.002    0.000 Image.py:2675(frombuffer)
+      108    0.000    0.000    0.000    0.000 Image.py:442(_getencoder)
+      102    0.000    0.000    0.003    0.000 Image.py:2347(transform)
+      318    0.000    0.000    0.000    0.000 Image.py:2580(_check_size)
+      108    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.map_buffer}
+      102    0.000    0.000    0.002    0.000 Image.py:2432(__transformer)
+      108    0.000    0.000    0.000    0.000 {method 'encode' of 'ImagingEncoder' objects}
+      108    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.fill}
+      318    0.000    0.000    0.000    0.000 Image.py:804(load)
+  124/109    0.000    0.000    0.007    0.000 <frozen importlib._bootstrap>:997(_handle_fromlist)
+      108    0.000    0.000    0.002    0.000 Image.py:679(__array_interface__)
+       22    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1233(find_spec)
+      2/1    0.000    0.000    0.000    0.000 {built-in method _imp.create_builtin}
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:524(spec_from_file_location)
+      102    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.new}
+        1    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+     21/1    0.000    0.000    0.000    0.000 sre_compile.py:64(_compile)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:830(get_data)
+      108    0.000    0.000    0.000    0.000 Image.py:275(_conv_type_shape)
+     12/3    0.000    0.000    0.000    0.000 sre_parse.py:470(_parse)
+        1    0.000    0.000    0.000    0.000 tokenize.py:448(open)
+       15    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:870(_find_spec)
+      8/2    0.000    0.000    0.007    0.004 {built-in method builtins.__import__}
+      106    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x9d12c0}
+      120    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:57(_path_join)
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+     15/2    0.000    0.000    0.008    0.004 <frozen importlib._bootstrap>:966(_find_and_load)
+        1    0.000    0.000    0.006    0.006 Image.py:27(<module>)
+        1    0.000    0.000    0.001    0.001 TiffTags.py:360(_populate)
+      108    0.000    0.000    0.000    0.000 {built-in method PIL._imaging.raw_encoder}
+      102    0.000    0.000    0.000    0.000 Image.py:2058(transform)
+       11    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:743(get_code)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:263(cache_from_source)
+     15/2    0.000    0.000    0.008    0.004 <frozen importlib._bootstrap>:936(_find_and_load_unlocked)
+      318    0.000    0.000    0.000    0.000 {method 'pixel_access' of 'ImagingCore' objects}
+     14/2    0.000    0.000    0.007    0.004 <frozen importlib._bootstrap>:651(_load_unlocked)
+      426    0.000    0.000    0.000    0.000 Image.py:551(size)
+       11    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
+      120    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:59(<listcomp>)
+        1    0.000    0.000    0.000    0.000 warnings.py:398(__init__)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:504(_init_module_attrs)
+      204    0.000    0.000    0.000    0.000 {built-in method math.sin}
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:430(_validate_bytecode_header)
+      426    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+      204    0.000    0.000    0.000    0.000 {built-in method math.cos}
+        1    0.000    0.000    0.000    0.000 linecache.py:82(updatecache)
+      144    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       13    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1117(_get_spec)
+      262    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+    30/10    0.000    0.000    0.000    0.000 sre_parse.py:173(getwidth)
+      118    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+      121    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(acquire)
+      108    0.000    0.000    0.000    0.000 {method 'setimage' of 'ImagingEncoder' objects}
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
+    14/13    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:564(module_from_spec)
+       74    0.000    0.000    0.000    0.000 sre_parse.py:232(__next)
+        1    0.000    0.000    0.000    0.000 __init__.py:357(namedtuple)
+        1    0.000    0.000    0.000    0.000 tokenize.py:355(detect_encoding)
+        1    0.000    0.000    0.001    0.001 warnings.py:35(_formatwarnmsg_impl)
+       57    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:75(_path_stat)
+       84    0.000    0.000    0.000    0.000 sre_parse.py:163(__getitem__)
+      176    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.001    0.001 ElementTree.py:34(<module>)
+        1    0.000    0.000    0.001    0.001 TiffTags.py:20(<module>)
+      104    0.000    0.000    0.000    0.000 <string>:12(__new__)
+        2    0.000    0.000    0.000    0.000 abc.py:132(__new__)
+     25/2    0.000    0.000    0.007    0.004 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+      108    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      4/1    0.000    0.000    0.000    0.000 sre_parse.py:407(_parse_sub)
+       18    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 Image.py:514(Image)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:361(_get_cached)
+       22    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       11    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:485(_compile_bytecode)
+     11/2    0.000    0.000    0.007    0.004 <frozen importlib._bootstrap_external>:672(exec_module)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1281(_fill_cache)
+      102    0.000    0.000    0.000    0.000 {built-in method math.radians}
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:63(_path_split)
+      108    0.000    0.000    0.000    0.000 {method 'join' of 'bytes' objects}
+       25    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1080(_path_importer_cache)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:318(__exit__)
+        3    0.000    0.000    0.000    0.000 {method 'transpose' of 'ImagingCore' objects}
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:85(_path_is_mode_type)
+       41    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:847(__exit__)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:147(__enter__)
+        3    0.000    0.000    0.000    0.000 sre_compile.py:250(_optimize_charset)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        9    0.000    0.000    0.000    0.000 sre_parse.py:342(_escape)
+        1    0.000    0.000    0.001    0.001 re.py:286(_compile)
+        1    0.000    0.000    0.001    0.001 warnings.py:20(_showwarnmsg_impl)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:52(_r_long)
+       23    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:403(cached)
+        4    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        1    0.000    0.000    0.000    0.000 linecache.py:37(getlines)
+        6    0.000    0.000    0.000    0.000 _weakrefset.py:36(__init__)
+       13    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1149(find_spec)
+        1    0.000    0.000    0.000    0.000 __init__.py:14(<module>)
+       51    0.000    0.000    0.000    0.000 sre_parse.py:248(match)
+       57    0.000    0.000    0.000    0.000 sre_parse.py:253(get)
+       10    0.000    0.000    0.000    0.000 sre_parse.py:294(_class_escape)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1067(_path_hooks)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1228(_get_spec)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+       41    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:843(__enter__)
+        2    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BufferedReader' objects}
+       53    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       21    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+        4    0.000    0.000    0.000    0.000 codecs.py:318(decode)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1196(__init__)
+       11    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       25    0.000    0.000    0.000    0.000 sre_parse.py:171(append)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:393(_check_name_wrapper)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
+        1    0.000    0.000    0.000    0.000 DynamicFeatureAnalytics.py:183(<listcomp>)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:800(__init__)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:311(__enter__)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:369(__init__)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:94(_path_isfile)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        3    0.000    0.000    0.000    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+       30    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+        1    0.000    0.000    0.000    0.000 linecache.py:15(getline)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:376(_mk_bitmap)
+        1    0.000    0.000    0.001    0.001 warnings.py:85(_showwarnmsg)
+        3    0.000    0.000    0.000    0.000 sre_compile.py:223(_compile_charset)
+        7    0.000    0.000    0.000    0.000 sre_compile.py:388(_simple)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:482(_compile_info)
+        1    0.000    0.000    0.001    0.001 sre_compile.py:557(compile)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:844(parse)
+        1    0.000    0.000    0.000    0.000 codecs.py:308(__init__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:840(path_stats)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:307(__init__)
+       56    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:321(<genexpr>)
+        5    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 <string>:5(_TagInfo)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:378(<listcomp>)
+       19    0.000    0.000    0.000    0.000 sre_parse.py:285(tell)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:707(find_spec)
+       14    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {method 'copy' of 'ImagingCore' objects}
+        3    0.000    0.000    0.000    0.000 Image.py:2505(transpose)
+        1    0.000    0.000    0.000    0.000 Image.py:3249(_apply_env_variables)
+        1    0.000    0.000    0.000    0.000 __init__.py:1161(getLogger)
+        1    0.000    0.000    0.000    0.000 __init__.py:1212(_fixupParents)
+        1    0.000    0.000    0.000    0.000 __init__.py:1268(__init__)
+        2    0.000    0.000    0.000    0.000 tokenize.py:385(find_cookie)
+        2    0.000    0.000    0.000    0.000 enum.py:803(__and__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1322(path_hook_for_FileFinder)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:780(find_spec)
+       34    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+       73    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+       73    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       13    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        2    0.000    0.000    0.000    0.000 tokenize.py:379(read_or_stop)
+       22    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        2    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+       34    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+       11    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 _binary.py:15(<module>)
+        1    0.000    0.000    0.001    0.001 ElementPath.py:59(<module>)
+        3    0.000    0.000    0.000    0.000 Image.py:1109(copy)
+       28    0.000    0.000    0.000    0.000 sre_parse.py:159(__len__)
+        4    0.000    0.000    0.000    0.000 enum.py:267(__call__)
+        1    0.000    0.000    0.000    0.000 contextlib.py:129(contextmanager)
+        1    0.000    0.000    0.000    0.000 functools.py:44(update_wrapper)
+        3    0.000    0.000    0.000    0.000 os.py:664(__getitem__)
+        2    0.000    0.000    0.000    0.000 abc.py:135(<setcomp>)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:919(create_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:433(spec_from_loader)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:41(_relax_case)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+       11    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       12    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 _util.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 ElementTree.py:1435(XMLParser)
+        1    0.000    0.000    0.000    0.000 ElementTree.py:123(Element)
+        1    0.000    0.000    0.000    0.000 __init__.py:1838(getLogger)
+        1    0.000    0.000    0.000    0.000 __init__.py:219(_acquireLock)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:84(opengroup)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:223(__init__)
+        1    0.000    0.000    0.001    0.001 warnings.py:106(_formatwarnmsg)
+        3    0.000    0.000    0.000    0.000 os.py:742(encode)
+        3    0.000    0.000    0.000    0.000 _collections_abc.py:664(__contains__)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:424(has_location)
+      2/1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:728(create_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:194(_lock_unlock_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:232(_requires_builtin_wrapper)
+        6    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+       34    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.000    0.000 Image.py:3285(Exif)
+        4    0.000    0.000    0.000    0.000 enum.py:517(__new__)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:542(_code)
+        1    0.000    0.000    0.000    0.000 codecs.py:259(__init__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:825(get_filename)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:927(exec_module)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1202(<genexpr>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:99(_path_isdir)
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
+        3    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method time.perf_counter}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+        1    0.000    0.000    0.000    0.000 ElementTree.py:494(QName)
+        1    0.000    0.000    0.000    0.000 ElementTree.py:542(ElementTree)
+        1    0.000    0.000    0.000    0.000 ElementTree.py:1248(XMLPullParser)
+        1    0.000    0.000    0.000    0.000 ImageMode.py:17(<module>)
+        1    0.000    0.000    0.000    0.000 __init__.py:47(_Deprecated_Version)
+        1    0.000    0.000    0.000    0.000 __init__.py:190(_checkLevel)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:96(closegroup)
+        7    0.000    0.000    0.000    0.000 sre_parse.py:167(__setitem__)
+        1    0.000    0.000    0.001    0.001 re.py:231(compile)
+        6    0.000    0.000    0.000    0.000 __init__.py:420(<genexpr>)
+        1    0.000    0.000    0.000    0.000 functools.py:74(wraps)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:669(create_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:736(exec_module)
+        6    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        1    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 _util.py:14(deferred_error)
+        1    0.000    0.000    0.000    0.000 ElementTree.py:1138(_ListDataStream)
+        1    0.000    0.000    0.000    0.000 ElementTree.py:1360(TreeBuilder)
+        1    0.000    0.000    0.000    0.000 ImageMode.py:20(ModeDescriptor)
+        1    0.000    0.000    0.000    0.000 TiffTags.py:23(TagInfo)
+        1    0.000    0.000    0.000    0.000 Image.py:473(_E)
+        1    0.000    0.000    0.000    0.000 Image.py:2549(ImagePointHandler)
+        1    0.000    0.000    0.000    0.000 __init__.py:17(<module>)
+        1    0.000    0.000    0.000    0.000 ElementTree.py:104(ParseError)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 __init__.py:134(UnidentifiedImageError)
+        1    0.000    0.000    0.000    0.000 _version.py:2(<module>)
+        1    0.000    0.000    0.000    0.000 Image.py:80(DecompressionBombError)
+        1    0.000    0.000    0.000    0.000 __init__.py:1109(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:228(_releaseLock)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:414(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:441(_get_charset_prefix)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 sre_parse.py:828(fix_flags)
+        6    0.000    0.000    0.000    0.000 __init__.py:422(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:908(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:753(is_package)
+        1    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.exec_builtin}
+        1    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        1    0.000    0.000    0.000    0.000 ElementPath.py:246(_SelectorContext)
+        1    0.000    0.000    0.000    0.000 Image.py:2558(ImageTransformHandler)
+        1    0.000    0.000    0.000    0.000 __init__.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 Image.py:76(DecompressionBombWarning)
+        1    0.000    0.000    0.000    0.000 __init__.py:685(__init__)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:539(isstring)
+
+

@@ -49,15 +49,13 @@ im_array_gray_A549 = im_array_gray;
 # Images of Bacterial Patch 
 
 #im = Image.open("../Data/Kernels/runawaygrowth_kernels/P1_E3_09.tif"); # images of bacterial patch
-#im = cv2.imread("../Data/Kernels/runawaygrowth_kernels/P1_E3_09.tif",-1); # images of bacterial patch
-im = Image.open("Data/Kernels/HCT116-UnhealthyCell_BacterialPatch.tif");
-im_array_gray = np.asarray(im,dtype=np.float32)
-#im_array_gray = im;# np.asarray(im,dtype=np.float32)
-#im_array_gray = rgb2gray(im_array_gray);
+im = cv2.imread("../Data/Kernels/runawaygrowth_kernels/P1_E3_09.tif",-1); # images of bacterial patch
+im_array_gray = im;# np.asarray(im,dtype=np.float32)
+im_array_gray = rgb2gray(im_array_gray);
 
 if False:
     im_array_gray = (np.abs(255.0-im_array_gray))
-im_array_gray_bacterial_patch = im_array_gray#/np.max(im_array_gray);
+im_array_gray_bacterial_patch = im_array_gray/np.max(im_array_gray);
 
 #imshow(im_array_gray_bacterial_patch)
 
@@ -65,11 +63,11 @@ im_array_gray_bacterial_patch = im_array_gray#/np.max(im_array_gray);
 
 #im = Image.open("../Data/Kernels/Unhealthy_cell_kernels/C6_04_1_1_Bright Field_009.tif");
 #im = cv2.imread("../Data/Kernels/Unhealthy_cell_kernels/C6_04_1_1_Bright Field_009.tif",-1);
-im = cv2.imread("../Data/Kernels/Unhealthy_cell_kernels/20191113 P1 E1 04.tif"); #Unhealthy_Cell_Repr30x.tif",-1);
+im = cv2.imread("../Data/Kernels/Unhealthy_Cell_Repr30x.tif",-1);
 #imshow(np.asarray(im))
-im_array_gray = np.asarray(im,dtype=np.float32)
+im_array_gray = im;#np.asarray(im,dtype=np.float32)
 #im_array_gray = rgb2gray(im_array_gray);
-if False:#invert_image:
+if invert_image:
      im_array_gray = (np.abs(255.0-im_array_gray))
 
 im_array_gray_A549_UH = im_array_gray
@@ -82,16 +80,15 @@ if set_kernel:
     mask_sample_kernel_healthy_A549 = sample_kernel_healthy_A549;
 
     #Define Bacterial Patches
-    sample_kernel_bacterial_patch = (im_array_gray_bacterial_patch[685:715,685:715]) #np.array(im_array_gray_bacterial_patch[625:795,350:550])#
+    sample_kernel_bacterial_patch = (im_array_gray_bacterial_patch[600:650,600:650]) #np.array(im_array_gray_bacterial_patch[625:795,350:550])#
     sample_kernel_bacterial_patch = (np.mean(sample_kernel_bacterial_patch,axis=None)-sample_kernel_bacterial_patch)/(np.mean(sample_kernel_bacterial_patch,axis=None))
     sample_kernel_bacterial_patch[sample_kernel_bacterial_patch<0.00] =0.0; 
     mask_sample_kernel_bacterial_patch = sample_kernel_bacterial_patch#/np.max(sample_kernel_bacterial_patch);
 
     
-    sample_kernel_unhealthy_A549 = (im_array_gray_A549_UH[540:630,630:730])
+    sample_kernel_unhealthy_A549 = (im_array_gray_A549_UH[660:700,690:730])
     sample_kernel_unhealthy_A549 = (np.mean(sample_kernel_unhealthy_A549,axis=None)-sample_kernel_unhealthy_A549)/(np.mean(sample_kernel_unhealthy_A549,axis=None))
-    sample_kernel_unhealthy_A549[sample_kernel_unhealthy_A549<0.00] =0.0;
-    sample_kernel_unhealthy_A549[sample_kernel_unhealthy_A549>0.00] =1.0;
+    sample_kernel_unhealthy_A549[sample_kernel_unhealthy_A549<0.00] =0.0; 
     mask_sample_kernel_unhealthy_A549 = sample_kernel_unhealthy_A549;
    
     
@@ -187,7 +184,7 @@ Pos_Flag = [elem[0]+elem[1] for elem in Pos_Flag]
 
 
 
-list_of_alphas = [4.4,64.5,26.5];#[3.75,13.0,5.1,8.5,8.2,11.25,4.06]
+list_of_alphas = [4.4,30.0,12.1];#[3.75,13.0,5.1,8.5,8.2,11.25,4.06]
 list_of_colors = ['g','r','b']
 import pickle
 row_res_masking = 10;

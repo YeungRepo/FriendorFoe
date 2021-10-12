@@ -16,10 +16,10 @@
 
 #python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P1_A549_WT/" >> A549P1.txt &
 
-python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P2_A549_WT/" >> A549P2.txt &
+#python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P2_A549_WT/" >> A549P2.txt &
 
 #python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P3_A549_WT/" >> A549P3.txt &
 
-#python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P4_A549_WT/" >> A549P4.txt &
+python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P4_A549_WT/" >> A549P4.txt &
 
 

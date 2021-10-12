@@ -14,8 +14,12 @@
 #python3 DynamicFeatureAnalytics_HCT116.py "/FoFData/20201105 HCT-116 30_Replicate 16 17 18 P4/201105_150523_Plate 1"   >> HCTP16-18.txt &
 
 
-python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P1_A549_WT/" >> A549P1.txt &
+#python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P1_A549_WT/" >> A549P1.txt &
 
-python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P2_A549_WT/" >> A549P2.txt &
+#python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P2_A549_WT/" >> A549P2.txt &
+
+python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P3_A549_WT/" >> A549P3.txt &
+
+python3 DynamicFeatureAnalytics.py "/FoFData/20211008/P4_A549_WT/" >> A549P4.txt &
 
 

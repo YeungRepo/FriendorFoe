@@ -2,7 +2,7 @@
 
 #import matplotlib.pyplot as plt;
 #import seaborn as sns;
-#from PIL import Image
+from PIL import Image
 import cv2;
 #from matplotlib.pyplot import imshow
 #import matplotlib.patches as patches;
@@ -49,7 +49,8 @@ im_array_gray_A549 = im_array_gray;
 # Images of Bacterial Patch 
 
 #im = Image.open("../Data/Kernels/runawaygrowth_kernels/P1_E3_09.tif"); # images of bacterial patch
-im = cv2.imread("../Data/Kernels/runawaygrowth_kernels/P1_E3_09.tif",-1); # images of bacterial patch
+#im = cv2.imread("../Data/Kernels/runawaygrowth_kernels/P1_E3_09.tif",-1); # images of bacterial patch
+im = Image.open("../Data/Kernels/HCT116-UnhealthyCell_BacterialPatch.tif");
 im_array_gray = im;# np.asarray(im,dtype=np.float32)
 im_array_gray = rgb2gray(im_array_gray);
 
@@ -80,7 +81,7 @@ if set_kernel:
     mask_sample_kernel_healthy_A549 = sample_kernel_healthy_A549;
 
     #Define Bacterial Patches
-    sample_kernel_bacterial_patch = (im_array_gray_bacterial_patch[600:650,600:650]) #np.array(im_array_gray_bacterial_patch[625:795,350:550])#
+    sample_kernel_bacterial_patch = (im_array_gray_bacterial_patch[685:715,685:715]) #(im_array_gray_bacterial_patch[600:650,600:650]) #np.array(im_array_gray_bacterial_patch[625:795,350:550])#
     sample_kernel_bacterial_patch = (np.mean(sample_kernel_bacterial_patch,axis=None)-sample_kernel_bacterial_patch)/(np.mean(sample_kernel_bacterial_patch,axis=None))
     sample_kernel_bacterial_patch[sample_kernel_bacterial_patch<0.00] =0.0; 
     mask_sample_kernel_bacterial_patch = sample_kernel_bacterial_patch#/np.max(sample_kernel_bacterial_patch);
@@ -184,7 +185,7 @@ Pos_Flag = [elem[0]+elem[1] for elem in Pos_Flag]
 
 
 
-list_of_alphas = [4.4,30.0,12.1];#[3.75,13.0,5.1,8.5,8.2,11.25,4.06]
+list_of_alphas = [4.4,30.0,26.5];#[3.75,13.0,5.1,8.5,8.2,11.25,4.06]
 list_of_colors = ['g','r','b']
 import pickle
 row_res_masking = 10;

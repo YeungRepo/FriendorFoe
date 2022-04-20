@@ -83,13 +83,13 @@ if set_kernel:
     mask_sample_kernel_healthy_HCT116 = sample_kernel_healthy_HCT116;
 
     #Define Bacterial Patches
-    sample_kernel_bacterial_patch = (im_array_gray_bacterial_patch[685:715,685:715]) #np.array(im_array_gray_bacterial_patch[625:795,350:550])#
+    sample_kernel_bacterial_patch = (im_array_gray_bacterial_patch[655:755,655:755]) #np.array(im_array_gray_bacterial_patch[625:795,350:550])#
     sample_kernel_bacterial_patch = (np.mean(sample_kernel_bacterial_patch,axis=None)-sample_kernel_bacterial_patch)/(np.mean(sample_kernel_bacterial_patch,axis=None))
     sample_kernel_bacterial_patch[sample_kernel_bacterial_patch<0.00] =0.0; 
     mask_sample_kernel_bacterial_patch = sample_kernel_bacterial_patch#/np.max(sample_kernel_bacterial_patch);
 
     
-    sample_kernel_unhealthy_HCT116 = (im_array_gray_HCT116_UH[660:700,200:300])
+    sample_kernel_unhealthy_HCT116 = (im_array_gray_HCT116_UH[600:700,200:300])
     sample_kernel_unhealthy_HCT116 = (np.mean(sample_kernel_unhealthy_HCT116,axis=None)-sample_kernel_unhealthy_HCT116)/(np.mean(sample_kernel_unhealthy_HCT116,axis=None))
     sample_kernel_unhealthy_HCT116[sample_kernel_unhealthy_HCT116<0.00] =0.0; 
     mask_sample_kernel_unhealthy_HCT116 = sample_kernel_unhealthy_HCT116;
@@ -236,13 +236,13 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
         
         im_array_gray = np.asarray(im,dtype=np.float32)
         
-        im_array_gray = rgb2gray(im_array_gray);
+        im_array_gray = rgb2gray(im_array_gray[:,:,0:3]);
         #DEBUG: #print("Image dimension check:" + repr(im_array_gray.shape))
         im_array_gray = im_array_gray[300:700,300:700]
         num_rows = im_array_gray.shape[0];
         num_cols = im_array_gray.shape[1];
         if invert_image:
-           im_array_gray = (np.abs(255.0-im_array_gray))
+           im_array_gray = (np.abs(1.0-im_array_gray))
 
         if plot_centroids:
             import matplotlib.pyplot as plt;
@@ -261,7 +261,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
         all_thresholded_norms_by_kernels = [None]*len(kernel_names);
 
 
-        for sample_kernel_ind in [0,1,2]:
+        for sample_kernel_ind in [0,2]:
             mask_sample_kernel = list_of_kernels[sample_kernel_ind];            
             norm_alpha = list_of_alphas[sample_kernel_ind];
             this_color = list_of_colors[sample_kernel_ind];

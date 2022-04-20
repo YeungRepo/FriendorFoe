@@ -35,14 +35,14 @@ def rgb2gray(rgb):
 #im = Image.open("../Data/Kernels/C2_03_1_1_Bright Field_004.tif");
 #im =  cv2.imread("../Data/Kernels/C2_03_1_1_Bright Field_004.tif",-1);
 #im =  cv2.imread("../Data/Kernels/Healthy_Cell_Repr30x.tif",-1);
-im = Image.open("../Data/Kernels/HCT116-Healthy_NC_10_2_20.tif");
-
+#im = Image.open("../Data/Kernels/HCT116-Healthy_NC_10_2_20.tif");
+im = Image.open("../Data/Kernels/HCT116_4_22_Healthy.tif");
 
 #print(np.asarray(im))
 #print(im_cv)
 #imshow(np.asarray(im))
 im_array_gray = np.asarray(im,dtype=np.float32)
-#im_array_gray = rgb2gray(im_array_gray);
+im_array_gray = rgb2gray(im_array_gray);
 if invert_image:
     im_array_gray = (np.abs(255.0-im_array_gray))
 
@@ -53,9 +53,10 @@ im_array_gray_HCT116 = im_array_gray;
 
 #im = Image.open("../Data/Kernels/runawaygrowth_kernels/P1_E3_09.tif"); # images of bacterial patch
 #im = cv2.imread("../Data/Kernels/runawaygrowth_kernels/P1_E3_09.tif",-1); # images of bacterial patch
-im = Image.open("../Data/Kernels/HCT116-UnhealthyCell_BacterialPatch.tif");
+#im = Image.open("../Data/Kernels/HCT116-UnhealthyCell_BacterialPatch.tif");
+im = Image.open("../Data/Kernels/BacterialPatch_4_22.tif");
 im_array_gray =  np.asarray(im,dtype=np.float32)
-#im_array_gray = rgb2gray(im_array_gray);
+im_array_gray = rgb2gray(im_array_gray);
 if True:
     im_array_gray = (np.abs(255.0-im_array_gray))
 im_array_gray_bacterial_patch = im_array_gray/np.max(im_array_gray);
@@ -190,7 +191,7 @@ Pos_Flag = [elem[0]+elem[1] for elem in Pos_Flag]
 
 
 
-list_of_alphas = [6.25,17.0,26.5];#[3.75,13.0,5.1,8.5,8.2,11.25,4.06]
+list_of_alphas = [14.5,17.0,20.0];#[3.75,13.0,5.1,8.5,8.2,11.25,4.06]
 list_of_colors = ['g','r','b']
 import pickle
 row_res_masking = 10;
@@ -206,7 +207,7 @@ feature_dict = dict();
 for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1', 'A2', ... 
     
     
-    file_list_suffixes = [elem for elem in all_orig_files if (This_Pos_Flag == elem.split('_')[0] and 1<np.int(elem.split('_')[-1].strip('.tif'))<25) ]
+    file_list_suffixes = [elem for elem in all_orig_files if (This_Pos_Flag == elem.split('_')[0] and 0<np.int(elem.split('_')[-1].strip('.tif'))<25) ]
     #file_list_suffixes = [elem for elem in all_orig_files if '15.png' in elem and This_Pos_Flag == elem.split('_')[1]]
     print('Analyzing the following files that match the Position Flag :' + This_Pos_Flag);
     has_past_processing=False;
@@ -288,12 +289,20 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
                           this_norm = np.linalg.norm(rotated_kernel-temp_filtered_image,'fro');
                           rotated_norms.append(1e4*this_norm/(rotated_kernel.shape[0]*rotated_kernel.shape[1]));
                       all_norms_by_kernels[sample_kernel_ind].append(np.min(rotated_norms));#[this_norm,col_ind,row_ind]);
-                      if norm_alpha>np.min(rotated_norms):
+                      if (not sample_kernel_ind==2) and norm_alpha>np.min(rotated_norms):
                           if plot_centroids:
                               import matplotlib.patches as patches
                               this_rect = patches.Rectangle((col_ind,row_ind),mask_cols,mask_rows,linewidth=3,edgecolor=this_color,facecolor='none',alpha=0.2);
                               all_rects_by_kernels[sample_kernel_ind].append(this_rect);
                           all_thresholded_norms_by_kernels[sample_kernel_ind][np.int(row_ind)][np.int(col_ind)] = np.min(rotated_norms);
+
+
+                      if sample_kernel_ind ==2 and norm_alpha< np.min(rotated_norms):#0.06<this_norm:                       
+                        if plot_centroids:
+                            this_rect = patches.Rectangle((col_ind,row_ind),mask_cols,mask_rows,linewidth=3,edgecolor=this_color,facecolor='none',alpha=0.5);
+                            all_rects.append(this_rect);
+                        all_thresholded_norms_by_kernels[sample_kernel_ind][np.int(row_ind)][np.int(col_ind)] = np.min(rotated_norms);
+
         #print(len(all_rects_by_kernels[0]))
         #print(len(all_rects_by_kernels[1]))
         #print(len(all_rects_by_kernels[2]))

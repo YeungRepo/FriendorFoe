@@ -19,7 +19,7 @@ Start_Time = time.perf_counter()
 show_kernels=False;
 invert_image = False;
 set_kernel=True;
-plot_centroids=True;
+plot_centroids=False;
 calibrate_kernels = False;
 ### Helper Functions ###
 
@@ -304,8 +304,8 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
                               all_rects.append(this_rect);
                           all_thresholded_norms_by_kernels[sample_kernel_ind][np.int(row_ind)][np.int(col_ind)] = np.min(rotated_norms);
 
-            print("# of Healthy Kernels Identified: " + repr(len(all_rects_by_kernels[0])))
-            print("# of Bacterial Patches Identified: " + repr(len(all_rects_by_kernels[2])))
+            #print("# of Healthy Kernels Identified: " + repr(len(all_rects_by_kernels[0])))
+            #print("# of Bacterial Patches Identified: " + repr(len(all_rects_by_kernels[2])))
 
 
         
@@ -346,6 +346,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
                                  all_centroid_rects_by_kernels[sample_kernel_ind].append(this_centroid_rect);
 
             feature_dict[This_Pos_Flag][TimeKey][kernel_names[sample_kernel_ind]] = num_centroids_detect_this_feature;
+            print("Kernel #" + repr(sample_kernel_ind)+"# of Features Detected" + repr(num_centroids_detect_this_feature));
 
 
 

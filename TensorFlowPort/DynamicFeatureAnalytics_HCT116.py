@@ -128,7 +128,7 @@ for sample_kernel_ind in range(0,len(list_of_kernels)):
     print(mask_sample_kernel.shape)
     base_angle = 0;
     kernel_family = [];
-    for delta in range(base_angle,360,10):
+    for delta in range(base_angle,360,30):
         try:
             this_mask_rows,this_mask_cols = mask_sample_kernel.shape;
         except:
@@ -239,7 +239,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
         
         im_array_gray = rgb2gray(im_array_gray[:,:,0:3]);
         #DEBUG: #print("Image dimension check:" + repr(im_array_gray.shape))
-        im_array_gray = im_array_gray[300:700,300:700]
+        im_array_gray = im_array_gray[250:850,250:850]
         num_rows = im_array_gray.shape[0];
         num_cols = im_array_gray.shape[1];
         if invert_image:
@@ -288,8 +288,9 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
                           temp_filtered_image[rotated_kernel==0.0]=0.0;
                           this_norm = np.linalg.norm(rotated_kernel-temp_filtered_image,'fro');
                           rotated_norms.append(1e4*this_norm/(rotated_kernel.shape[0]*rotated_kernel.shape[1]));
-                      all_norms_by_kernels[sample_kernel_ind].append(np.min(rotated_norms));#[this_norm,col_ind,row_ind]);
-                      if (not sample_kernel_ind==2) and norm_alpha>np.min(rotated_norms):
+                          
+                      all_norms_by_kernels[sample_kernel_ind].append(np.min(rotated_norms));
+                      if sample_kernel_ind<2 and norm_alpha>np.min(rotated_norms):
                           if plot_centroids:
                               import matplotlib.patches as patches
                               this_rect = patches.Rectangle((col_ind,row_ind),mask_cols,mask_rows,linewidth=3,edgecolor=this_color,facecolor='none',alpha=0.2);
@@ -303,50 +304,49 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
                             all_rects.append(this_rect);
                         all_thresholded_norms_by_kernels[sample_kernel_ind][np.int(row_ind)][np.int(col_ind)] = np.min(rotated_norms);
 
-        #print(len(all_rects_by_kernels[0]))
-        #print(len(all_rects_by_kernels[1]))
-        #print(len(all_rects_by_kernels[2]))
+            print("# of Healthy Kernels Identified: " + repr(len(all_rects_by_kernels[0])))
+            print("# of Bacterial Patches Identified: " + repr(len(all_rects_by_kernels[2])))
 
 
         
-        for sample_kernel_ind in [0,2]:
-                all_centroid_rects_by_kernels[sample_kernel_ind] = [];
-                #print(" - - - - Beginning max pooling - - - -")
-                this_color = list_of_colors[sample_kernel_ind];
-                mask_sample_kernel = list_of_kernels[sample_kernel_ind];
-                mask_rows = mask_sample_kernel.shape[0];
-                mask_cols = mask_sample_kernel.shape[1];
-                centroid_mask = np.ones((mask_rows,mask_cols));
-                num_rows_mf = all_thresholded_norms_by_kernels[sample_kernel_ind].shape[0];
-                num_cols_mf = all_thresholded_norms_by_kernels[sample_kernel_ind].shape[1];
-                mask_rows_mf = centroid_mask.shape[0]
-                mask_cols_mf = centroid_mask.shape[1];
-                Post_Image = all_thresholded_norms_by_kernels[sample_kernel_ind] - all_thresholded_norms_by_kernels[sample_kernel_ind] ;
-                row_res_mf = np.int(mask_rows/2);
-                col_res_mf = np.int(mask_cols/2);
-                num_centroids_detect_this_feature = 0;
-                unique_centroids = set();
-                for row_ind in np.arange(0,num_rows_mf-mask_rows_mf,row_res_mf):
-                    for col_ind in np.arange(0,num_cols_mf-mask_cols_mf,col_res_mf):
-                        Raw_Subimage = (all_thresholded_norms_by_kernels[sample_kernel_ind][row_ind:row_ind+mask_rows_mf,col_ind:col_ind+mask_cols_mf]);
-                        if np.max(Raw_Subimage)>0.0:
-                            Raw_Subimage = -Raw_Subimage;
-                            Raw_Subimage[Raw_Subimage==0] = -np.Inf;
-                            opt_row,opt_col  = np.unravel_index(Raw_Subimage.argmax(),Raw_Subimage.shape)
-                            Post_Image[row_ind+opt_row-5:row_ind+opt_row+5,col_ind+opt_col-5:col_ind+opt_col+5] = -np.max(Raw_Subimage) 
+        #for sample_kernel_ind in [0,2]:
+            all_centroid_rects_by_kernels[sample_kernel_ind] = [];
+            #print(" - - - - Beginning max pooling - - - -")
+            this_color = list_of_colors[sample_kernel_ind];
+            mask_sample_kernel = list_of_kernels[sample_kernel_ind];
+            mask_rows = mask_sample_kernel.shape[0];
+            mask_cols = mask_sample_kernel.shape[1];
+            centroid_mask = np.ones((mask_rows,mask_cols));
+            num_rows_mf = all_thresholded_norms_by_kernels[sample_kernel_ind].shape[0];
+            num_cols_mf = all_thresholded_norms_by_kernels[sample_kernel_ind].shape[1];
+            mask_rows_mf = centroid_mask.shape[0]
+            mask_cols_mf = centroid_mask.shape[1];
+            Post_Image = all_thresholded_norms_by_kernels[sample_kernel_ind] - all_thresholded_norms_by_kernels[sample_kernel_ind] ;
+            row_res_mf = np.int(mask_rows/2);
+            col_res_mf = np.int(mask_cols/2);
+            num_centroids_detect_this_feature = 0;
+            unique_centroids = set();
+            for row_ind in np.arange(0,num_rows_mf-mask_rows_mf,row_res_mf):
+                for col_ind in np.arange(0,num_cols_mf-mask_cols_mf,col_res_mf):
+                    Raw_Subimage = (all_thresholded_norms_by_kernels[sample_kernel_ind][row_ind:row_ind+mask_rows_mf,col_ind:col_ind+mask_cols_mf]);
+                    if np.max(Raw_Subimage)>0.0:
+                        Raw_Subimage = -Raw_Subimage;
+                        Raw_Subimage[Raw_Subimage==0] = -np.Inf;
+                        opt_row,opt_col  = np.unravel_index(Raw_Subimage.argmax(),Raw_Subimage.shape)
+                        Post_Image[row_ind+opt_row-5:row_ind+opt_row+5,col_ind+opt_col-5:col_ind+opt_col+5] = -np.max(Raw_Subimage) 
 
-                            predicted_centroid_row = (row_ind+opt_row);
-                            predicted_centroid_col = (col_ind+opt_col);
-                            if not ((predicted_centroid_row,predicted_centroid_col) in unique_centroids):
-                                num_centroids_detect_this_feature = num_centroids_detect_this_feature +1;
-                                unique_centroids.add((predicted_centroid_row,predicted_centroid_col));
-                                if plot_centroids:
-                                     import matplotlib.patches as patches;
-                                     this_centroid_rect = patches.Rectangle((predicted_centroid_col,predicted_centroid_row),10,10,linewidth=3,edgecolor=this_color,facecolor='none',alpha=0.8);
-                                     all_centroid_rects_by_kernels[sample_kernel_ind].append(this_centroid_rect);
+                        predicted_centroid_row = (row_ind+opt_row);
+                        predicted_centroid_col = (col_ind+opt_col);
+                        if not ((predicted_centroid_row,predicted_centroid_col) in unique_centroids):
+                            num_centroids_detect_this_feature = num_centroids_detect_this_feature +1;
+                            unique_centroids.add((predicted_centroid_row,predicted_centroid_col));
+                            if plot_centroids:
+                                 import matplotlib.patches as patches;
+                                 this_centroid_rect = patches.Rectangle((predicted_centroid_col,predicted_centroid_row),10,10,linewidth=3,edgecolor=this_color,facecolor='none',alpha=0.8);
+                                 all_centroid_rects_by_kernels[sample_kernel_ind].append(this_centroid_rect);
 
-                feature_dict[This_Pos_Flag][TimeKey][kernel_names[sample_kernel_ind]] = num_centroids_detect_this_feature;
-        
+            feature_dict[This_Pos_Flag][TimeKey][kernel_names[sample_kernel_ind]] = num_centroids_detect_this_feature;
+
 
 
 
@@ -360,7 +360,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
             
             
             kernel_names = ['Healthy HCT116','Unhealthy HCT116','Bacterial Patches'];
-            for this_sample_kernel_ind in [0,1,2]: 
+            for this_sample_kernel_ind in [0,2]: 
                plt.figure()
                plt.hist(all_norms_by_kernels[this_sample_kernel_ind],bins=200);
 
@@ -379,7 +379,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
 
 
         if plot_centroids:
-            for sample_kernel_ind in [0,1,2]:
+            for sample_kernel_ind in [0,2]:
                 for rect in all_rects_by_kernels[sample_kernel_ind]:
                     this_orig_ax.add_patch(rect)
                 this_orig_ax.set_title('Features')

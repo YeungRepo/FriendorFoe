@@ -347,7 +347,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
                                  all_centroid_rects_by_kernels[sample_kernel_ind].append(this_centroid_rect);
 
             feature_dict[This_Pos_Flag][TimeKey][kernel_names[sample_kernel_ind]] = num_centroids_detect_this_feature;
-            print("Kernel #" + repr(sample_kernel_ind)+"# of Features Detected" + repr(num_centroids_detect_this_feature));
+            #print("Kernel #" + repr(sample_kernel_ind)+"# of Features Detected" + repr(num_centroids_detect_this_feature));
 
 
 

@@ -84,7 +84,7 @@ if set_kernel:
     mask_sample_kernel_healthy_HCT116 = sample_kernel_healthy_HCT116;
 
     #Define Bacterial Patches
-    sample_kernel_bacterial_patch = (im_array_gray_bacterial_patch[655:755,655:755]) #np.array(im_array_gray_bacterial_patch[625:795,350:550])#
+    sample_kernel_bacterial_patch = np.array(im_array_gray_bacterial_patch[655:755,655:755]) #np.array(im_array_gray_bacterial_patch[625:795,350:550])#
     sample_kernel_bacterial_patch = (np.mean(sample_kernel_bacterial_patch,axis=None)-sample_kernel_bacterial_patch)/(np.mean(sample_kernel_bacterial_patch,axis=None))
     sample_kernel_bacterial_patch[sample_kernel_bacterial_patch<0.00] =0.0; 
     mask_sample_kernel_bacterial_patch = sample_kernel_bacterial_patch#/np.max(sample_kernel_bacterial_patch);

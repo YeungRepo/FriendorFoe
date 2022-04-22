@@ -302,7 +302,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
                           if plot_centroids:
                               this_rect = patches.Rectangle((col_ind,row_ind),mask_cols,mask_rows,linewidth=3,edgecolor=this_color,facecolor='none',alpha=0.5);
                               all_rects.append(this_rect);
-                        all_thresholded_norms_by_kernels[sample_kernel_ind][np.int(row_ind)][np.int(col_ind)] = np.min(rotated_norms);
+                          all_thresholded_norms_by_kernels[sample_kernel_ind][np.int(row_ind)][np.int(col_ind)] = np.min(rotated_norms);
 
             print("# of Healthy Kernels Identified: " + repr(len(all_rects_by_kernels[0])))
             print("# of Bacterial Patches Identified: " + repr(len(all_rects_by_kernels[2])))

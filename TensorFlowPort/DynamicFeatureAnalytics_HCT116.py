@@ -19,7 +19,7 @@ Start_Time = time.perf_counter()
 show_kernels=False;
 invert_image = False;
 set_kernel=True;
-plot_centroids=False;
+plot_centroids=True;
 calibrate_kernels = False;
 ### Helper Functions ###
 
@@ -299,9 +299,9 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
 
 
                       if sample_kernel_ind ==2 and norm_alpha< np.min(rotated_norms):#0.06<this_norm:                       
-                        if plot_centroids:
-                            this_rect = patches.Rectangle((col_ind,row_ind),mask_cols,mask_rows,linewidth=3,edgecolor=this_color,facecolor='none',alpha=0.5);
-                            all_rects.append(this_rect);
+                          if plot_centroids:
+                              this_rect = patches.Rectangle((col_ind,row_ind),mask_cols,mask_rows,linewidth=3,edgecolor=this_color,facecolor='none',alpha=0.5);
+                              all_rects.append(this_rect);
                         all_thresholded_norms_by_kernels[sample_kernel_ind][np.int(row_ind)][np.int(col_ind)] = np.min(rotated_norms);
 
             print("# of Healthy Kernels Identified: " + repr(len(all_rects_by_kernels[0])))

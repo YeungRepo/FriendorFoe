@@ -338,6 +338,7 @@ for This_Pos_Flag in Pos_Flag:#This will be an iteration over elements like 'A1'
                         predicted_centroid_row = (row_ind+opt_row);
                         predicted_centroid_col = (col_ind+opt_col);
                         if not ((predicted_centroid_row,predicted_centroid_col) in unique_centroids):
+                            print("here");
                             num_centroids_detect_this_feature = num_centroids_detect_this_feature +1;
                             unique_centroids.add((predicted_centroid_row,predicted_centroid_col));
                             if plot_centroids:
